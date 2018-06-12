@@ -18,15 +18,15 @@
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
+// PADRAO
 /** The name of the database for WordPress */
-define('DB_NAME', 'id2886688_eduardoblog');
+define('DB_NAME', 'eduardo-wp');
 
 /** MySQL database username */
-define('DB_USER', 'id2886688_eduardoblog');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'eduardoblog');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -36,26 +36,6 @@ define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-
-
-// PADRAO
-/** The name of the database for WordPress */
-//define('DB_NAME', 'eduardoblog');
-
-/** MySQL database username */
-//define('DB_USER', 'root');
-
-/** MySQL database password */
-//define('DB_PASSWORD', '');
-
-/** MySQL hostname */
-//define('DB_HOST', 'localhost');
-
-/** Database Charset to use in creating database tables. */
-//define('DB_CHARSET', 'utf8mb4');
-
-/** The Database Collate type. Don't change this if in doubt. */
-//define('DB_COLLATE', '');
 
 /**#@+
  * Authentication Unique Keys and Salts.

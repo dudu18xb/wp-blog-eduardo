@@ -6,7 +6,6 @@
  *
  * @package OnePress
  */
-
 if ( ! function_exists( 'onepress_setup' ) ) :
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
@@ -115,8 +114,7 @@ if ( ! function_exists( 'onepress_setup' ) ) :
         add_theme_support( 'wc-product-gallery-zoom' );
         add_theme_support( 'wc-product-gallery-lightbox' );
         add_theme_support( 'wc-product-gallery-slider' );
-
-	}
+    }
 endif;
 add_action( 'after_setup_theme', 'onepress_setup' );
 
@@ -170,6 +168,7 @@ function onepress_scripts() {
 
     $theme = wp_get_theme( 'onepress' );
     $version = $theme->get( 'Version' );
+
 
 	wp_enqueue_style( 'onepress-fonts', onepress_fonts_url(), array(), $version );
 	wp_enqueue_style( 'onepress-animate', get_template_directory_uri() .'/assets/css/animate.min.css', array(), $version );
